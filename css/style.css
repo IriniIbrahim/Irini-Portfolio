@@ -29,7 +29,14 @@ h1 {
 h2 {
 	font-size: smaller;
 }
-
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;
+}
 .site-footer {
 	position: fixed;
 	bottom: 0;
@@ -252,6 +259,38 @@ h2 {
 	color: white;
 	position: relative;
 	border-radius: 6px;
+}
+.svg {
+	width: 300px;
+	float: right;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	padding: 10px;
+}
+.grid-container > div {
+	border: 1px solid black;
+}
+.card {
+	box-shadow: 0 4px 8px 0
+		rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+}
+.cardimg {
+	height: 200px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0
+		rgba(0, 0, 0, 0.373);
+}
+
+/* Add some padding inside the card container */
+.containercard {
+	padding: 2px 16px;
 }
 @media screen and (min-width: 1000px) {
 	.tab {
