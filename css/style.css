@@ -278,7 +278,7 @@ h2 {
 	border: #000000 solid 0.2rem;
 }
 .cardimg {
-	height: 200px;
+	height: 140px;
 }
 /* On mouse-over, add a deeper shadow */
 .card:hover {
@@ -351,5 +351,8 @@ h2 {
 	/* Make all right containers behave like the left ones */
 	.right {
 		left: 0%;
+	}
+	.cardimg {
+		height: 200px;
 	}
 }
